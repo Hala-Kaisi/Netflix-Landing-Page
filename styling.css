@@ -1,0 +1,118 @@
+.showcase {
+    background: url(https://i.ibb.co/vXqDmnh/background.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+body{
+    margin-top: 0%;
+    font-family: "Martel Sans", sans-serif;
+    color: #fff;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0.55) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+    );
+    z-index: 1;
+}
+
+img{
+    width: 170px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.tagline{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    display: block;
+    margin-block-start: 10%;
+    margin-block-end: 2%;
+    margin-inline-start: 8%;
+    margin-inline-end: 10%;
+}
+
+.hero{
+    z-index: 3;
+    position: absolute;
+    width: 100%
+}
+
+.subtitle{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 38%;
+    margin-bottom: 3%;
+    font-weight: normal;
+}
+
+.ready{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 27%;
+    margin-bottom: 2%;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+.signup{
+    background-color: #e50914;
+    color: #fff;
+    height: 60px;
+    width: 350px;
+    margin-left: 37%;
+    border: 0ch;
+    padding: 0.4em 1em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    letter-spacing: 00.05em;
+}
+
+.signin{
+    background-color: #e50914;
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 40px;
+    width: 100px;
+    border: 0ch;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 6%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+
+.border{
+    border-bottom: 0.5em solid green;
+}
+
+.enjoy{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    height: 1050;
+    background-color: green;
+    z-index: 6;
+}
+
+h1{
+    padding: 0;
+    text-align: left;
+}
