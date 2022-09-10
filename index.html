@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metflix</title>
     <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -18,15 +19,39 @@
                 <p class="tagline">Unlimited movies, TV<br> shows and more.</p>
                 <p class="subtitle">Watch anywhere. Cancel anytime.</p>
                 <p class="ready">Ready to watch? Enter your email to create or restart your membership.</p>
-                <button class="signup">TRY 30 DAYS FOR FREE</button>
+                <div class="email">
+                    <form class="form">
+                        <input type="text" name="email" value autocomplete="email" placeholder="Email address">
+                    </form>
+                    <button class="signup">TRY 30 DAYS FOR FREE</button>
+                </div>
             </div>
         </div> 
     </main>
-    <div class="border"></div>
-    <section class="enjoy">
-        <h1>Enjoy on your TV.</h1>
-        <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-            players and more.</h2>
-    </section> 
+    <div class="section1">
+        <div class="content">
+            <h1>Enjoy on your TV.</h1>
+            <h2>Watch on smart TVs, PlayStation, Xbox<br> Chromecast, Apple TV, Blu-ray
+                players and<br> more.</h2>
+        </div>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+        <video autoplay muted loop id="myVideo">
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+    </div> 
+    <div class="section2">
+        <img src="https://isaif.github.io/tenflix/assets/mobile.png">
+        <div class="content">
+            <h1 style="margin-left: 160px; position: absolute">Download your shows <br>to watch offline.</h1>
+            <h2 style="margin-left: 160px; position: absolute; margin-top: 280px">Save your favorites easily and always have<br> something to watch.</h2>
+        </div>
+        <div class="download">
+            <img src="https://isaif.github.io/tenflix/assets/joker-poster-2.jpg">
+            <div class="downloadinfo">
+                <div class="title">The Joker</div>
+                <div class="downloading">Downloading...</div>
+            </div>
+            <div class="downicon"></div>
+        </div>
+    </div> 
 </body>
 </html>
