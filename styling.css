@@ -1,14 +1,16 @@
 .showcase {
     background: url(https://i.ibb.co/vXqDmnh/background.jpg) no-repeat;
-    height: 100%;
+    height: 750px;
     width: 100%;
     position: absolute;
+    border-bottom: 8px solid #222;
 }
 
 body{
     margin-top: 0%;
-    font-family: "Martel Sans", sans-serif;
+    font-family: Netflix Sans,Helvetica,Helvetica,Arial,sans-serif;;
     color: #fff;
+    min-width: fit-content;
 }
 
 .overlay{
@@ -58,11 +60,12 @@ img{
 
 .ready{
     color: #fff;
-    font-size: 1.1rem;
-    margin-left: 27%;
+    font-size: 1.2rem;
+    margin-left: 26.5%;
     margin-bottom: 2%;
     font-weight: normal;
     letter-spacing: 0.05em;
+    word-spacing: 0.05px;
 }
 
 .signup{
@@ -70,12 +73,14 @@ img{
     color: #fff;
     height: 60px;
     width: 350px;
-    margin-left: 37%;
     border: 0ch;
-    padding: 0.4em 1em;
+    padding: 0em 0em;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 00.05em;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .signin{
@@ -96,23 +101,134 @@ img{
     width: 96%;
 }
 
-.border{
-    border-bottom: 0.5em solid green;
+input{
+    height: 53.8px;
+    width: 360.5px;
+    font-size: 15px;
+    color: #8c8c8c;
+    padding-left: 3%;
 }
 
-.enjoy{
-    width: 90%;
-    margin: 0 auto;
-    padding: 3em 0;
-    max-width: 1050px;
+input:focus{
+    width: 350px;
+}
+
+.email{
     display: flex;
-    justify-content: space-between;
-    height: 1050;
-    background-color: green;
-    z-index: 6;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 758px;
+    background-color: black;
+    width: 1440px;
+    border-bottom: 8px solid #222;
 }
 
 h1{
-    padding: 0;
+    margin-left: 200px;
+    margin-top: 130px;
     text-align: left;
+    font-size: 3.1rem;
+}
+
+h2{
+    margin-left: 200px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-bottom: 140px;
+}
+
+.section1 > img{
+    height: 398px;
+    width: 530px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 800px;
+    margin-top: 0px;
+}
+
+.section1 > video{
+    height: 217px;
+    width: 387px;
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 80px
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 758px;
+    background-color: black;
+    width: 1440px;
+    border-bottom: 8px solid #222;
+}
+
+.section2 > img {
+    height: 300px;
+    width: 380px;
+    margin-left: 180px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.download{
+    width: 350px;
+    height: 85px;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: .75em;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 190px;
+    background: black;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+}
+
+.download > img{
+    width: 50px;
+    height: 70px;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+.downloadinfo{
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 0px;
+}
+
+.downloading{
+    font-size: 0.9em;
+    color: #0071eb;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.downicon{
+    background: url(https://isaif.github.io/tenflix/assets/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+    margin-left: 110px;
+    margin-top: 17px;
 }
