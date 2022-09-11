@@ -312,7 +312,7 @@ li{
     display: block;
     background: #303030;
     padding: 0.9em 1em;
-    margin-bottom: 0.15em;
+    margin-top: 0.3em;
     border: none;
     width: 815px;
     height: 75px;
@@ -324,7 +324,7 @@ li{
     font-weight: 400;
 }
 
-.svg-icon{
+.svg-icon.opened{
     fill: #fff;
     height: 1em;
     transform: translateY(-50%);
@@ -334,26 +334,35 @@ li{
     margin-right: 2%;
 }
 
-.svg-closed{
-    transform: translateY(-50%) rotate(-45px);
-}
-
-.faq-answer.open{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #fff;
+.svg-icon.closed{
+    transform: translateY(-50%) rotate(-45deg);
+    fill: #fff;
+    height: 1em;
+    width: 1em;
+    margin-top: 18px;
+    float: right;
+    margin-right: 2%;
 }
 
 .faq-answer > a{
     color: #fff;
 }
 
-.faq-answer{
+.faq-answer.closed{
+    display: none;
+}
+
+.faq-answer.opened{
     max-height: 1200px;
     background: #303030;
     display: block;
     text-align: left;
+    margin-top: 0.05em;
     padding: 1.2em;
+    padding-right: 1.4em;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
     width: 753px;
     margin-bottom: 5px;
 }
@@ -366,7 +375,7 @@ li{
     padding-bottom: 70px;
     background-color: black;
     color: #757575;
-    padding: 3em 15em 1em 15em;
+    padding: 2em 15em 1em 15em;
     max-width: 1440px;
 }
 
