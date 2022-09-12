@@ -88,6 +88,10 @@ img{
     white-space: nowrap;
 }
 
+input:focus{
+    outline: none;
+}
+
 .signin{
     background-color: #e50914;
     margin-left: 20%;
@@ -98,6 +102,7 @@ img{
     color:#fff;
     font-size: 16px;
     border-radius: 6%;
+    cursor: pointer;
 }
 
 .header{
